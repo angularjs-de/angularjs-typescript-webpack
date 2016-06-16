@@ -1,0 +1,22 @@
+{
+  "name": "angularjs-webpack-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.ts",
+  "scripts": {
+    "build-dev": "webpack --progress --profile --colors --display-error-details --display-cached",
+    "build": "webpack -p --progress --profile --colors --display-error-details --display-cached",
+    "start-server": "http-server ./web"
+  },
+  "author": "Mario Bartlack",
+  "license": "MIT",
+  "devDependencies": {
+    "angular": "^1.5.7",
+    "html-loader": "^0.4.3",
+    "http-server": "^0.9.0",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.2.0",
+    "webpack": "^1.13.1"
+  }
+}
